@@ -1,0 +1,163 @@
+h1 {
+  font-family: "League Spartan", sans-serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 18px;
+  padding-bottom: 0px;
+}
+h2 {
+  font-family: "League Spartan", sans-serif;
+  margin: 0px;
+}
+h5 {
+  margin: 0px 15px 0px 10px;
+  padding-left: 19px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: lighter;
+}
+h6 {
+  padding: 85px;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  padding-left: 52px;
+}
+/* Container for the icons */
+.icon-container {
+  position: absolute;
+  top: 20px; /* Distance from the top */
+  right: 20px; /* Distance from the right */
+  display: flex;
+  gap: 15px; /* Space between icons */
+}
+
+/* Style each icon */
+.icon-container i {
+  font-size: 24px; /* Adjust the size of the icons */
+  color: #333; /* Default color */
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect */
+.icon-container i:hover {
+  color: #be3144; /* Change color on hover */
+}
+body > header {
+  background-color: #f0ece2;
+  margin: auto;
+}
+#header-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 10px 10px 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+}
+#first-paragraph {
+  margin: 0px 5px 0px 5px;
+  text-align: center;
+
+  padding: 10px 5px;
+}
+nav > ul > li {
+  list-style-type: none;
+}
+img {
+  display: block;
+  padding: 20px;
+}
+button {
+  align-self: center;
+}
+#image-one {
+  grid-area: imageone;
+  justify-self: center;
+}
+#image-two {
+  grid-area: imagetwo;
+  justify-self: center;
+}
+#image-three {
+  grid-area: imagethree;
+}
+#image-four {
+  grid-area: imagefour;
+}
+#image-five {
+  grid-area: imagefive;
+  justify-self: center;
+}
+#image-six {
+  grid-area: imagesix;
+}
+#grid-container {
+  display: grid;
+  grid-template-areas:
+    "imageone imagetwo imagethree"
+    "imagefour imagefive imagesix";
+  grid-template-columns: 1fr 6fr;
+}
+#pricing {
+  text-align: center;
+}
+#bracelet-name {
+  text-align: center;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 18px;
+  color: black;
+  background-color: #dfd3c3;
+  border: 1px solid #dfd3c3;
+  border-radius: 40px;
+  box-shadow: 5px 5px 10px rgba(143, 144, 154, 0.4);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background-color: #c7b198;
+  color: white;
+  cursor: pointer;
+}
+#sign-up {
+  text-align: center;
+  padding: 10px;
+}
+form {
+  text-align: center; /* Center labels */
+}
+
+input {
+  display: block; /* Makes the input take up full width */
+  margin: 10px auto; /* Centers the input fields horizontally */
+  width: 300px; /* Adjust the width */
+  padding: 8px;
+}
+
+hr {
+  background-color: #f0ece2;
+  margin: 0px;
+}
+#hajani-header {
+  padding: 10px 400px 10px 10px;
+}
+body > footer {
+  background-color: #f0ece2;
+  display: flex;
+}
+#footer-list {
+  margin: 0px;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  list-style-type: none;
+}
+#list-two {
+  padding: 0px 500px 10px 80px;
+}
